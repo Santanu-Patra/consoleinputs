@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+   <div class="user-input">
+    <br>
+    <br>
+    <br>
+    <input type="text" placeholder="first-name" id="f-name"/>
+    <br>
+    <br>
+
+    <input type="text" placeholder="last-name" id="l-name"/>
+    <br>
+    <br>
+    <select id="select">
+        <option value="M">male</option>
+        <option value="F">female</option>
+        <option value="T">other</option>
+    </select>
+    <br>
+    <br>
+    <input type="checkbox" value="yes i accept term" class="c-box"/>term and condition
+    <br>
+    <br>
+    <input type="checkbox" value="yes i accept cookie" class="c-box"/>cookie
+    <br>
+    <br>
+    <input type="checkbox" value="send simillar job" class="c-box"/>simillar job
+    <br>
+    <br>
+
+    <button onclick="show()">Show</button>
+    <br>
+    <br>
+
+
+   </div> 
+
+
+
+   <div id="show-output">
+    <p id="first_name"></p>
+    <p id="last_name"></p>
+    <p id="gender"></p>
+   </div>
+
+   <script src="./index.js"></script>
+</body>
+</html>
